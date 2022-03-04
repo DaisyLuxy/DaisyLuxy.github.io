@@ -1,7 +1,241 @@
-<!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        
+        <!-- Google fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap" rel="stylesheet">
+        <!-- Google Icon -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+        <style>
+            body,html{
+                height: 100%;
+            }
+
+            .parallax1{
+                background-image:url(https://cdn2.ettoday.net/images/3836/d3836656.jpg);
+                height:75%;
+                background-attachment: fixed;
+                background-position:center;
+                background-repeat:no-repeat;
+                background-size:cover;
+
+            }
+            .parallax2{
+                background-image:url(https://www.polyu.edu.hk/-/media/department/home/gallery/campus-environment/c0128.jpg?bc=ffffff&h=1728&w=2304&hash=BD49F827AE1EF583FFDC40D5E73DB2BF);
+                height:100%;
+                background-attachment: fixed;
+                background-position:center;
+                background-repeat:no-repeat;
+                background-size:cover;
+
+            }
+            .parallax3{
+                background-image:url(https://www.polyu.edu.hk/sao/-/media/department/sao/content/cps/recruitment-talks-and-events/left-big-box.jpg?bc=ffffff&h=1200&w=1100&hash=33B59546BF1C5E2C3883E6EBA5A1DBCC);
+                height:100%;
+                background-attachment: fixed;
+                background-position:center;
+                background-repeat:no-repeat;
+                background-size:cover;
+
+            }
+            .parallax4{
+                background-image:url(https://www.polyu.edu.hk/sao/-/media/department/sao/content/cps/wie-programmes/box-4---photo-on-left.jpg?bc=ffffff&h=449&w=598&hash=66998ACAB97AD8FE2173D0CB8A386FAD);
+                height:100%;
+                background-attachment: fixed;
+                background-position:center;
+                background-repeat:no-repeat;
+                background-size:cover;
+
+            }
+
+            .textbox{
+                /* background-color:#ffd670; */
+                background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSibXmnz_3NMlbFYMZzCNI2UnEqxWqBvMTsvA&usqp=CAU);
+                background-repeat:round;
+                font-size:36px;
+                overflow:auto;
+                font-family:'Kalam';
+                padding: 15px;
+            }
+            .navy{
+                position:fixed;
+                /* background-color:#e0c3fc; */
+                background-image: linear-gradient(to bottom right, #e0c3fc, #9bf6ff);
+                left:0;
+                width:25%;
+                height:100%;
+            }
+
+            .right{
+                position:relative;
+                left:25%;
+            }
+
+            #pic{
+                content:'';
+                background-image:url("profile picture.jpg");
+                /* display: block; */
+                background-size:cover;
+                width: 50%;
+                height:33%;
+                position: absolute;
+                left:25%;
+            }
+            #pic:hover{
+                content:'';
+                background-image:url("fun.jpg");
+                z-index: 1;
+                /* display: block; */
+                background-size:cover;
+                width: 50%;
+                height:33%;
+                position: absolute;
+                left:25%;
+            }
+            #greeting{
+                position:absolute;
+                top:50%;
+                left:10%;
+                font-family:'Merienda';
+            }
+            .link{
+                border:black solid;
+                position:absolute;
+                text-decoration: none;
+                padding: 5%;
+                width:100%;
+                height:10%;
+                /* vertical-align: middle; */
+                text-align: center;
+                font-family:'Merienda';
+                font-size: 25px;
+                border-left: 0;
+                border-right: 0;
+                border-bottom: 0;
+                border-top: white 2px;
+
+
+            }
+            .link:hover{
+                background-color: #abc4ff;                
+            }
+            a{
+                color:black;
+            }
+            a:hover{
+                text-decoration: none;
+            }
+            .link1{
+                position:absolute;
+                top:55%;
+                
+            }
+            .link2{
+                position:absolute;
+                top:65%;
+            }
+            .link3{
+                position:absolute;
+                top:75%;
+            }
+            .link4{
+                position:absolute;
+                top:85%;
+            }
+        </style>
+
+    </head>
+
+    <body>
+<div class="row">
+
+    <!-- Navigation bar -->
+    <div class="col-*-3" >
+        <div class="navy">
+        <h1 style="font-size: 30px;text-align: center;font-family:'Merienda' ;"><b>Daisy LU</b></h1>
+        <div id="pic"></div>
+        <div id="greeting">
+            Hi there! Welcome to My Homepage!
+        </div>
+
+        <!-- Bookmarks -->
+        <div class="link link1"><a href="#Hometown"><span style="display: block;"><b>Hometwon</b></span></a></div>
+        <div class="link link2"><a href="#Education"><span style="display: block;"><b>Education</b></span></a></div>
+        <div class="link link3"><a href="#Internship"><span style="display: block;"><b>Internship</b></span></a></div>
+        <div class="link link4"><a href="#Skills"><span style="display: block;"><b>Skills</b></a></span></div>
+        </div>
+    </div>
+
+    <div class="col-*-9 right" style="background-color:rgb(24, 24, 26);">
+
+        <div class="parallax1"></div>
+
+        <div class="textbox" id="Hometown" style="height:380px">
+            <b>Hometown</b> <br>
+            My hometown is <b>Fuzhou, Fujian, China</b>. I spent my childhood there. And my kindergarten, primary school, middle school, and high school are all there.<br>
+            Fuzhou is the capital of Fujian Province. The local dialect is Mindong Fuzhou dialect. It is not only an important trade port along the southeast coast of China, but also one of the starting points of the maritime Silk Road.
+        </div>
+
+        <div class="parallax2"></div>
+
+        <div class="textbox" id="Education" style="height:300px">
+            <b>Education</b> <br>
+        I am now a final year student in <b>The Hong Kong Polytechnic University.</b><br>
+        Major: Accountancy <i class="material-icons" style="font-size:30px">business_center</i><span>     </span><img style="height: 50px" src="https://www.polyu.edu.hk/af/-/media/department/af/setting/af-logo.png?bc=ffffff&h=150&mw=1050&hash=C2F81BA4E94D51ED6B335F17757B903B"><br>
+        Minor: Computing <i class="material-icons" style="font-size:30px">computer</i><span>     </span><img style="height: 45px" src="https://www.polyu.edu.hk/comp/-/media/department/comp/setting/polyu-comp-logo.png?bc=ffffff&h=150&mw=1050&hash=AFFA898AD96EDFD486CD27DFE37E98AF"><br>
+        Cumulative GPA: <i class="material-icons" style="font-size:30px">password</i>
+        </div>
+
+        <div class="parallax3"></div>
+
+        <div class="textbox" id="Internship" style="height:240px" id="vision">
+            <b>Internship</b><br>
+            
+            <!-- 1st Intern -->
+            <span class="material-icons" style="font-size:30px;">star</span>
+            <img style="height: 40px" src="https://www.accenture.com/t20180820T081710Z__w__/hk-en/_acnmedia/Accenture/Dev/Redesign/Acc_Logo_Black_Purple_RGB.png">
+            Accenture Technology Solution Co., Ltd.  
+            <span>     </span>
+            <span class="material-icons" style="font-size:30px;">place</span>Dalian, Liaoning <br>
+            
+            <!-- 2nd Intern -->            
+            <span class="material-icons" style="font-size:30px;">star</span>
+            <img style="height: 40px" src="https://www.grantthornton.com/-/media/SVG/global/logo.ashx?la=en&hash=FD98122161B9A8E218124E73054672F291727949">
+            Grant Thornton China 
+            <span>     </span>
+            <span class="material-icons" style="font-size:30px;">place</span>Beijing<br>
+            
+            <!-- 3rd Intern -->            
+            <span class="material-icons" style="font-size:30px;">star</span>
+            <img style="height: 40px" src="http://image4.ccb.com/cn/home/company/v3/images/img/20150828_1440745919/20151201084052927594.png">
+            China Construction Bank 
+            <span>     </span>
+            <span class="material-icons" style="font-size:30px;">place</span>Nanjing, Jiangsu
+        </div>
+        
+        <div class="parallax4"></div>
+
+        <div class="textbox" id="Skills" style="height:540px" id="vision">
+            <b>Skills</b><br>
+            Computer skills
+            <span>   </span><i class="material-icons" style="font-size:30px">computer</i>
+            <br>
+            <span class="material-icons" style="font-size:30px;"><b>done</b></span>Fluent in Power BI, MS Excel, Word, and PPT<br>
+            <span class="material-icons" style="font-size:30px;"><b>done</b></span>Basic programming in C++, Python, SQL, Java, and html<br>
+            <span class="material-icons" style="font-size:30px;"><b>done</b></span>Basic in Microsoft Azure, AWS<br>
+   
+            <br>
+            Language skills
+            <span>   </span><i class="material-icons" style="font-size:30px">language</i>
+            <br>           
+            <span class="material-icons" style="font-size:30px;"><b>done</b></span>Mandarin (Native)<br>
+            <span class="material-icons" style="font-size:30px;"><b>done</b></span>English (IELTS 7.5/9.0)<br>
+            <span class="material-icons" style="font-size:30px;"><b>done</b></span>Cantonese (Basic)
+            
+        </div>
+    </div>
+</div>
+    </body>
 </html>
